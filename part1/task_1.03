@@ -1,0 +1,9 @@
+To start the container I gave a command:
+  $ docker run -it devopsdockeruh/pull_exercise
+
+And the inserted the password that I found from image's Dockerhub page
+https://hub.docker.com/r/devopsdockeruh/pull_exercise
+
+The message I got out is
+"This is the secret message"
+
