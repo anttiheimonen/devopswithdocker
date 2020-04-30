@@ -1,0 +1,5 @@
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                     PORTS               NAMES
+2feef924afca        redis               "docker-entrypoint.s…"   3 minutes ago       Up 3 minutes               6379/tcp            romantic_gagarin
+3c0cc264daf9        node                "docker-entrypoint.s…"   4 minutes ago       Exited (0) 4 minutes ago                       xenodochial_hellman
+b04f00aa04e2        nginx               "nginx -g 'daemon of…"   5 minutes ago       Exited (0) 6 seconds ago                       funny_babbage
+
