@@ -1,0 +1,10 @@
+I started the docker with command
+  docker run -d -it --name tehtava105 ubuntu:16.04
+
+Then I ran bash to install curl:
+  docker exec -it tehtava105 bash
+  apt update
+  apt install curl
+  exit
+
+After this running task succeed.
