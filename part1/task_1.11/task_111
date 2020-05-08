@@ -1,0 +1,9 @@
+Command used to start container:
+
+  docker run -dp 8000:8000 \
+  -v "$(pwd)"/logs.txt:/webservices/backend-example-docker/logs.txt \
+  backend:latest
+
+Before starting the container logs.txt must exist on host machine. 
+Otherwise Docker tries to crete a new directory called logs.txt.
+
