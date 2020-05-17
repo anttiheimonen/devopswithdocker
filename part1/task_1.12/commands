@@ -1,0 +1,6 @@
+Backend run with 
+  docker run -dp 8000:8000 -v "$(pwd)"/logs.txt:/webservices/backend-example-docker/logs.txt backend112
+
+Frontend run with
+  docker run -dp 5000:5000 frontend112
+
