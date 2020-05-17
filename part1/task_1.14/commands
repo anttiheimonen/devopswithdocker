@@ -1,0 +1,6 @@
+Image build with
+  docker build -t rubyproject .
+
+Container run with
+  docker run -dp 3000:3000 rubyproject
+
