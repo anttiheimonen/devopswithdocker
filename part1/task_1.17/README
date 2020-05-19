@@ -1,0 +1,12 @@
+I created docker image with Haskell Stack installation. Also Dockerfile 
+creates a new Stack project and removes it. This way image already contains 
+basic Haskell libraries and tools to build a basic project so redownloading 
+those on every run can be avoided.
+
+Image also cointains a directory (/root/projects) that can be used to mount
+project directory from host machine. 
+
+Git is also installed.
+
+Docker hub link:
+https://hub.docker.com/r/anttiheimonen/myfavoriteprogrammingenvironment
