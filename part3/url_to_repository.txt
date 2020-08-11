@@ -1,0 +1,4 @@
+Link to repository. Githubs actions are used to build, push and deploy
+Dockerfile to Heroku.
+
+https://github.com/anttiheimonen/docker-part3-task2
